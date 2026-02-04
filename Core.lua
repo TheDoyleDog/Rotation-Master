@@ -123,7 +123,7 @@ end
 -- Event handlers
 function RotationMaster:OnEvent(event, ...)
     if event == "ADDON_LOADED" then
-        local addonName = ...
+        local addonName = (...)
         if addonName == "RotationMaster" then
             self:Initialize()
         end
