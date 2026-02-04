@@ -1,0 +1,28 @@
+## Interface: 11200
+## Title: Rotation Master
+## Notes: Automatic rotation addon for all classes with level-based optimization
+## Author: RotationMaster Team
+## Version: 1.0.0
+## SavedVariables: RotationMasterDB
+## SavedVariablesPerCharacter: RotationMasterCharDB
+
+# Core files
+Core.lua
+Config.lua
+SpellData.lua
+RotationEngine.lua
+
+# Class rotations
+Rotations\Warrior.lua
+Rotations\Paladin.lua
+Rotations\Hunter.lua
+Rotations\Rogue.lua
+Rotations\Priest.lua
+Rotations\Shaman.lua
+Rotations\Mage.lua
+Rotations\Warlock.lua
+Rotations\Druid.lua
+
+# UI components
+UI\ConfigPanel.lua
+UI\StatusDisplay.lua
